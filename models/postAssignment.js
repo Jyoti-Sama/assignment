@@ -6,7 +6,7 @@ const postSchema = new mongoose.Schema({
     exam:String,
     year:Number,
     AboutPaper:String,
-    examImage:String,
+    paperImage:String,
     createDate:{
         type: Date,
         default:new Date()
